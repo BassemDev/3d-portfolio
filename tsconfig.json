@@ -3,5 +3,10 @@
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
-  ]
+  ],
+  "compilerOptions": {
+    // property need to be enable to allow the describe 
+    // block to be read as a type for the vitest typings
+    "types": ["vitest/globals"]
+  }
 }
