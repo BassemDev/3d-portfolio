@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar } from './sections/Navbar';
+import { Navbar } from './sections/header/Navbar';
 
 const App: React.FC = () => {
     
