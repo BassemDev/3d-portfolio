@@ -2,7 +2,7 @@
 import React from 'react';
 
 // Intern project import
-import { NAV_ITEM_LABELS } from '../constants/navbar';
+import { NAV_ITEM_LABELS } from '../../constants/navbar';
 
 export const NavItems: React.FC = () => {
     return (
